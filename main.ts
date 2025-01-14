@@ -1,11 +1,11 @@
 //ENUMS
 
 enum Three_Axis {
-    //% block = "forward"
+    //% block="forward"
     Forward,
-    //% block = "left"
+    //% block="left"
     Left,
-    //% block = "right"
+    //% block="right"
     Right
 }
 
