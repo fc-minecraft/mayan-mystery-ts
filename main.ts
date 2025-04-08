@@ -1,11 +1,11 @@
 //ENUMS
 
 enum Three_Axis {
-    //% block="forward"
+    //% block="вперед"
     Forward,
-    //% block="left"
+    //% block="влево"
     Left,
-    //% block="right"
+    //% block="вправо"
     Right
 }
 
@@ -19,7 +19,7 @@ namespace mayanMystery {
  * This function moves the Agent
  * in three directions
  */
-//% block = "agent move %d by %n"
+//% block = "перемещение Агента %d на %n"
     export function agent_move(d: Three_Axis, n: number): void {
         for (let i =0; i < n; i++){
             switch (d) {
