@@ -15,11 +15,11 @@ const communicationsTimeout = 75;
 //%  block="Mayan Mystery" weight=200 color=#0B3D91 icon="\uf186"
 namespace mayanMystery {
 
-/**
- * This function moves the Agent
- * in three directions
- */
-//% block = "перемещение Агента %d на %n"
+    /**
+     * This function moves the Agent
+     * in three directions
+     */
+    //% block="перемещение Агента %d на %n"
     export function agent_move(d: Three_Axis, n: number): void {
         for (let i =0; i < n; i++){
             switch (d) {
